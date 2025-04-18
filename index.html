@@ -65,19 +65,22 @@
             100% { transform: translateX(100%); }
         }
 
-        h1 {
-            font-size: 2.5em;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-            color: #ffffff;
-            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);
-            font-weight: 800;
+        .header-logo {
+            max-width: 130px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transition: transform 0.3s ease;
+        }
+
+        .header-logo:hover {
+            transform: scale(1.05);
         }
 
         p.subtitle {
             font-size: 1em;
             color: #ffcc00;
-            margin-top: 5px;
+            margin-top: 10px;
             font-weight: 400;
             position: relative;
             display: inline-block;
@@ -267,7 +270,9 @@
 </head>
 <body>
     <header>
-        <h1>GTA V Mobile</h1>
+        <a href="https://glxy.site">
+            <img src="https://i.postimg.cc/43k89wN5/Spring.png" alt="GTA V Mobile Logo" class="header-logo" loading="lazy">
+        </a>
         <p class="subtitle">Rule the Streets of Los Santos</p>
     </header>
 
@@ -290,15 +295,16 @@
                     <div class="platform">Works on iOS & Android</div>
                     <p>Live the ultimate open-world adventure in Los Santos. Steal cars, pull heists, and dominate the streets, now on your mobile device.</p>
                 </div>
-                <a href="https://play.google.com/store" class="download-btn"><i class="fab fa-android"></i>ANDROID</a>
-                <a href="https://www.apple.com/app-store/" class="download-btn"><i class="fab fa-apple"></i>iOS</a>
+                <a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftGGHM" class="download-btn"><i class="fab fa-android"></i>ANDROID</a>
+                <a href="https://apps.apple.com/us/app/gangstar-vegas-mafia-action/id571393580" class="download-btn"><i class="fab fa-apple"></i>iOS</a>
                 <div class="download-counter">Downloads: <span class="count">0</span></div>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>© 2025 GLXY.SITE - All rights reserved.</p>
+    <p>NOTE: You will download a mobile game similar to the one you selected.</p>
+    <p>&copy; 2025 GLXY.SITE - All rights reserved.</p>
     </footer>
 
     <script>
